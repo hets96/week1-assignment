@@ -6,7 +6,7 @@
 
 header {
     box-sizing: border-box;
-    margin: 10px;
+    margin: 0px;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     color: aliceblue;
 }
 
-.feature.image {
+.feature-image {
     position: relative;
     background-size: cover;
     background-position: center;
@@ -74,7 +74,14 @@ h1 {
     top: 10px;
 }
 
-.nav {height: 50px; width: 200px}
+.nav {
+    height: 50px;
+    width: 200px;
+    flex-direction: row;
+    justify-content: center;
+    height:max-content;
+
+}
 .home {background-color: #781eed;}
 .about {background-color: #4f1991;}
 .games {background-color: #360669;}
