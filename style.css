@@ -9,6 +9,22 @@ header {
     margin: 0px;
 }
 
+.nav {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    flex-direction: row;
+    justify-content: center;
+    height: max-content;
+}
+
+.level-0 {
+    position: fixed;
+    padding: 3rem;
+    background-color: #1a0332;
+    width: 100%;
+}
+
 body {
     background-color: black;
     margin: 10;
@@ -40,11 +56,47 @@ body {
 }
 .levelcuatro { background-image: url(./images/neon5.jpg);
 }
+
+.level-1 {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.level-2 {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.level-3 {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.level-4 { 
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
 h1 {
     display: block;
     color: rgb(255, 255, 255);
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 75px;
     margin-block-end: 20px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -73,14 +125,6 @@ h1 {
     top: 10px;
 }
 
-.nav {
-    height: 50px;
-    width: 200px;
-    flex-direction: row;
-    justify-content: center;
-    height: max-content;
-
-}
 .home {background-color: #781eed;}
 .about {background-color: #4f1991;}
 .games {background-color: #360669;}
